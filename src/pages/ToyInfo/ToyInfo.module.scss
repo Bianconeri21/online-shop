@@ -1,0 +1,36 @@
+.root {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+    .title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .info_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 70px;
+        padding-right: 70px;
+
+        .image_container {
+            text-align: center;
+
+            img {
+                height: 170px;
+                width: 170px;
+            }
+
+            span {
+                font-size: 25px;
+                font-weight: 800;
+            }
+        }
+
+        p {
+            font-size: 24px;
+            margin-left: 20px;
+        }
+    }
+}

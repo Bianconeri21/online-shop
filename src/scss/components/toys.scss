@@ -1,0 +1,91 @@
+@import '../variables';
+
+.toys {
+    padding: 13px;
+    background-color: $white;
+    border-radius: 10px;
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+
+    &__card {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 20px;
+        border: 2px solid $light-green;
+        border-radius: 15px;
+
+        img {
+            height: 160px;
+            width: 160px;
+        }
+
+        .toy-name-container {
+            display: flex;
+            align-items: center;
+            p {
+                font-size: 22px;
+                margin-right: 7px;
+                color: #232323;
+            }
+
+            .toy-add {
+                border: 2px solid $light-green;
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+    
+                &:hover {
+                    background-color: $light-green;
+    
+                    svg {
+                        path {
+                            fill: $white;
+                        }
+                    }
+                }
+
+                &:active {
+                    margin-top: 2px;
+                }
+            }
+            
+        }
+
+        .toy-price-container {
+            border-radius: 7px;  
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+
+            .price {
+                font-size: 30px;
+                color: #232323;
+            }
+
+            .count {
+                height: 30px;
+                width: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #4CB250;
+                color: white;
+                font-weight: 600;
+                border-radius: 50%;
+            }
+        }
+
+    }
+}

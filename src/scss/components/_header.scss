@@ -1,0 +1,55 @@
+@import '../variables';
+
+.header {
+  padding: 20px 0;
+  background-color: $white;
+  border-radius: 10px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        margin-left: 30px;
+        cursor: pointer;
+
+        img {
+            height: 75px;
+            width: 150px;
+        }
+    }
+
+    .cart {
+        margin-right: 30px;
+        
+        img {
+            height: 75px;
+            cursor: pointer;
+        }
+
+        .shoping-info {
+            width: 90px;
+            display: flex;
+            justify-content: space-between;
+
+            span.total-price {
+                color: $nice-blue;
+                font-weight: 600;
+            }
+
+            span.total-count {
+                height: 25px;
+                width: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $nice-blue;
+                color: $white;
+                font-weight: 600;
+                border-radius: 50%;
+            }
+        }
+    }
+  }
+}

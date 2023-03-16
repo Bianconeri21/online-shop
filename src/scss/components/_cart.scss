@@ -1,0 +1,198 @@
+@import '../variables';
+
+.content {
+    .cart {
+        background-color: $white;
+        border-radius: 10px;
+        padding: 15px;
+
+        &__top {
+            display: flex;
+            justify-content: space-around;
+
+            .title {
+                display: flex;
+                align-items: center;
+                font-size: 33px;
+
+                svg {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+
+                    path {
+                        stroke: $light-black;
+                        stroke-width: 1.9;
+                    }
+                }
+            }
+        }
+
+        &__clear {
+            display: flex;
+            align-items: center;
+            color: #b6b6b6;
+            cursor: pointer;
+            font-size: 19px;
+
+            svg {
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+
+            &:hover {
+                color: $light-black;
+
+                svg {
+                    path {
+                        stroke: $light-black;
+                    }
+                }
+            }
+        }
+
+        &__items {
+            .cart__item {
+                display: flex;
+                justify-content: center;
+
+                .toy-block__image {
+                    height: 110px;
+                    width: 110px;
+                }
+
+                &-info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 18%;
+                    margin-left: 25px;
+                }
+
+                .cart-item-btn {
+                    &:active {
+                        margin-top: 2px;
+                    }
+                }
+
+                &-count {
+                    display: flex;
+                    width: 10%;
+                    align-items: center;
+                    font-size: 25px;
+
+                    .cart-button {
+                        border: 2px solid $bold-blue;
+                        border-radius: 50%;
+                        width: 25px;
+                        height: 25px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: $bold-blue;
+
+                            svg {
+                                path {
+                                    fill: $white;
+                                }
+                            }
+                        }
+                    }
+
+                    b {
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                }
+
+                &-price {
+                    display: flex;
+                    width: 10%;
+                    align-items: center;
+                    font-size: 25px;
+                }
+
+                &-remove {
+                    display: flex;
+                    align-items: center;
+
+                    .cart-button-remove {
+                        border: 2px solid red;
+                        border-radius: 50%;
+                        width: 25px;
+                        height: 25px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: red;
+
+                            svg {
+                                path {
+                                    fill: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__bottom {
+            margin-top: 30px;
+
+            &-info {
+                display: flex;
+                justify-content: space-evenly;
+
+                span {
+                    font-size: 23px;
+                    color: $light-black;
+
+                    strong {
+                        color: $bold-blue;
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            &-buttons {
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-evenly;
+
+                button {
+                    height: 50px;
+                    width: 130px;
+                    border-radius: 27px;
+                    font-size: 19px;
+                    cursor: pointer;
+                }
+
+                &-back {
+                    border: 1px solid $light-black;
+
+                    &:hover {
+                        background-color: $light-black;
+                        color: $white;
+                    }
+                }
+
+                &-pay {
+                    border: 1px solid $bold-blue;
+                    
+                    &:hover {
+                        background-color: $bold-blue;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d284d36.css",
-    "main.js": "/static/js/main.395b32af.js",
-    "static/media/loading.gif": "/static/media/loading.a623c103419d73f6b06c.gif",
-    "static/media/emptyCart.png": "/static/media/emptyCart.d6ec002af95ed2cace03.png",
-    "static/media/trolley.png": "/static/media/trolley.e26818c0ffe739d3f9e1.png",
-    "static/media/toys-shop.png": "/static/media/toys-shop.859638ec9d37a183b047.png",
-    "index.html": "/index.html",
-    "main.6d284d36.css.map": "/static/css/main.6d284d36.css.map",
-    "main.395b32af.js.map": "/static/js/main.395b32af.js.map"
+    "main.css": "/online-shop/static/css/main.6d284d36.css",
+    "main.js": "/online-shop/static/js/main.64d7b313.js",
+    "static/media/loading.gif": "/online-shop/static/media/loading.a623c103419d73f6b06c.gif",
+    "static/media/emptyCart.png": "/online-shop/static/media/emptyCart.d6ec002af95ed2cace03.png",
+    "static/media/trolley.png": "/online-shop/static/media/trolley.e26818c0ffe739d3f9e1.png",
+    "static/media/toys-shop.png": "/online-shop/static/media/toys-shop.859638ec9d37a183b047.png",
+    "index.html": "/online-shop/index.html",
+    "main.6d284d36.css.map": "/online-shop/static/css/main.6d284d36.css.map",
+    "main.64d7b313.js.map": "/online-shop/static/js/main.64d7b313.js.map"
   },
   "entrypoints": [
     "static/css/main.6d284d36.css",
-    "static/js/main.395b32af.js"
+    "static/js/main.64d7b313.js"
   ]
 }

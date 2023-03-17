@@ -5,3 +5,6 @@
 - Redux Toolkit
 - Axios
 - react-router-dom
+
+
+##As a backend tool is used mockapi
